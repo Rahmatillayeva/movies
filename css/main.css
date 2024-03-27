@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(81, 76, 110);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.input_first {
+  width: 30%;
+}
+
+input {
+  width: 14%;
+  height: 25px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.btn {
+  width: 12%;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid darkred;
+  color: darkred;
+  background-color: rgb(240, 70, 70);
+}
+.btn:hover {
+  opacity: 0.7;
+}
+
+.movies_list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movies_list_item {
+  width: 350px;
+  height: 500px;
+  padding: 25px;
+  background-color: #4db0dac8;
+  margin-top: 20px;
+
+
+}
+
+.movies_list_item h2 {
+  margin: 20px 0;
+}
+
+.item-div {
+  display: flex;
+  margin: 15px 0;
+}
+
+.item-div img~img {
+  margin-left: 30px;
+}
+
+.item-div p{
+  margin-left: 10px;
+}
+
+
+.item-btn {
+width: 100%;
+padding: 5px 0;
+background-color: rgb(74, 234, 100);
+border: 2px solid green;
+color: #FFF;
+margin-top: 20px;
+}
